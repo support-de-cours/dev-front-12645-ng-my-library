@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   imports: [],
-  templateUrl: './not-found.component.html'
+  template: `
+    <h2>Oops document not found</h2>
+    <p>This document does'nt exist.</p>
+  `
 })
 export class NotFoundComponent {
 
